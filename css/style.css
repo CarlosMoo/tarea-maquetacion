@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 613px;
+    max-width: 1200px;
+    color: white;
+    background-image: url(../images/Fondo-Netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor_btn_login{
+    text-align: right;
+}
+
+.login {
+    background-color: #d91318;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 35px;
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+
+.login:hover {
+    background-color: #a7141b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 35px;
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+
+header figure {
+    width: 250px;
+    margin: auto;
+    margin-top: 43px;
+}
+
+header figure img {
+    width: 100%;
+}
+
+.contenedor_info_cab{
+    margin-top: 71px;
+}
+
+.contenedor_info_cab h2{
+    padding: 15px;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+
+.contenedor_info_cab h3 {
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.flecha {
+    width: 30px;
+    margin-left: 23.5px;
+}
+
+.unirte {
+    background-color: #d91318;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 100px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.unirte:hover {
+    background-color: #a7141b;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 100px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#twitter{
+    position: fixed;
+    width: 200px;
+    height: 75px;
+    top: 600px;
+    right: 0px;
+    background-color: white;
+    border-radius: 40px 0 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #2E2E2E;
+}
+
+.navbar ul{
+    height: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul li a {
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arimo;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.navbar ul li a img {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#select{
+    border-bottom: 10px red solid;
+}
+
+.cancelacion{
+    padding: 136px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancelacion div{
+    max-width: 439px;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+}
+
+.cancelacion a {
+    margin: left;
+}
+
+.unirte-left{
+    background-color: #d91318;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 100px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unirte-left:hover{
+    background-color: #a7141b;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 100px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #2E2E2E;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer p{
+    color: #d91318;
+    margin-left: 36px;
+    font-size: 20px;
+    margin-top: 38px;
+}
+
+.preguntas{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.preguntas u{
+    color: #5D5D5D;
+    padding: 7.3px;
+    font-size: 20px;
+}
+
+.preguntas div{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.contenedor_btn_español{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 36px;
+}
+
+.español{
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    color: #5D5D5D;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 14px 35px;
+}
+
+.español:hover {
+    background-color: #d91318;
+    font-size: 20px;
+    color: #5D5D5D;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 14px 35px;
+}
+
+.español span{
+    margin-left: 26.7px;
+}
+
+.Netflix {
+    color: #d91318;
+    font-size: 20px;
+    margin-right: 36px;
+}
+
+/* Precios */
+
+.precios {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.precios h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+.tabla{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precios figure{
+    margin: 0 0 64px 0;
+}
+
+.precios div {
+    padding: 0 30px;
+}
+
+/* Dispositivos */
+
+.dispositivos {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+
+.dispositivos h2{
+    font-size: 30px;
+    font-weight: normal;
+    width: 590px;
+}
+
+.dispositivos div {
+    padding: 0 30px;
+}
+
+.disp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.TV{
+    width: 360px;
+    text-align: center;
+}
+
+.TV h3{
+    color: white;
+    font-size: 25px;
+    font-family: Arimo;
+    margin: 15.8px 0 50px 0;
+    font-weight: normal;
+}
+
+.TV p{
+    color: #5d5d5d;
+    font-size: 20px;
+    font-family: Arimo;
+}
+
+.Celular{
+    width: 360px;
+    text-align: center;
+}
+
+.Celular h3{
+    color: white;
+    font-size: 25px;
+    font-family: Arimo;
+    margin: 15.8px 0 20px 0;
+    font-weight: normal;
+}
+
+.Celular p{
+    color: #5d5d5d;
+    font-size: 20px;
+    font-family: Arimo;
+}
+
+.Laptop{
+    width: 360px;
+    text-align: center;
+}
+
+.Laptop h3{
+    color: white;
+    font-size: 25px;
+    font-family: Arimo;
+    margin: 15.8px 0 20px 0;
+    font-weight: normal;
+}
+
+.Laptop p{
+    color: #5d5d5d;
+    font-size: 20px;
+    font-family: Arimo;
+    padding-top: 37px;
+}
+
+.letras-disp{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
